@@ -1,0 +1,35 @@
+header {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+list {
+    width: 50vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    list-style: circle;
+
+    font-size: x-large;
+}
+
+li {
+    cursor: default;
+}
+
+li:hover {
+    text-decoration: underline;
+    list-style: disc;
+    user-select: none;
+}
