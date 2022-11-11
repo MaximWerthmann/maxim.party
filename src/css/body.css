@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     color: white;
     margin: 0;
@@ -5,6 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    background-image: url(/src/img/maxim_background.png);
-    background-position: center;
+    background-color: rgb(25, 25, 25);
+
+    font-family: "open sans";
 }
