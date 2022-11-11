@@ -27,12 +27,15 @@ list {
     font-size: 2vh;
 }
 
-li {
+a {
+    color: white;
     cursor: pointer;
     transition: color 100ms;
+
+    text-decoration: none;
 }
 
-li:hover {
+a:hover {
     color: rgb(175, 175, 175);
     transition: color 100ms;
 }
