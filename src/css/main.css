@@ -1,18 +1,9 @@
 main {
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-grow: 1;
     
     text-align: center;
-}
-
-.twitter-timeline {
-    width: 35vh;
-    padding: 5vh;
-}
-
-.discord {
-    width: 35vh;
-    height: 50vh; 
-    padding: 5vh;
 }
