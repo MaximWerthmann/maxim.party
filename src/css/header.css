@@ -23,7 +23,7 @@ list {
 
     list-style: none;
 
-    font-size: 2vh;
+    font-size: 1rem;
 }
 
 a {
@@ -43,6 +43,7 @@ a:hover {
 .button-container {
   width: 40vh;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
