@@ -58,7 +58,7 @@ a:hover {
     height: 2vh;
     width: 2vh;
     filter: brightness(50%);
-    transition: 0.5s;
+    transition: filter 0.5s;
 }
 
 .login_btn:hover > .login_img {

@@ -92,7 +92,7 @@
 .button2 {
     position: relative;
     color: var(--textColor2);
-    border-radius: 26px;
+    border-radius: 100vh;
     background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
     background-size: 400%;
     background-position: 0% 0%;
@@ -104,7 +104,7 @@
     top: -2px;
     right: -2px;
     bottom: -2px;
-    border-radius: 26px;
+    border-radius: 100vh;
     background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
     background-size: 500%;
     background-position: 0% 0%;
@@ -128,13 +128,8 @@
 }
   
 .button3 {
-    left: -2px;
-    top: -2px;
-    right: -2px;
-    bottom: -2px;
-
     position: relative;
-    border-radius: 26px;
+    border-radius: 100vh;
     color: var(--textColor3);
     background-color: transparent;
     border: 0.5vh solid transparent;
@@ -146,15 +141,15 @@
     border: 0;
 }
 .button3::before {
-    left: -2px;
-    top: -2px;
-    right: -2px;
-    bottom: -2px;
+    left: -0.1vh;
+    top: -0.1vh;
+    right: -0.1vh;
+    bottom: -0.1vh;
     content: "";
     position: absolute;
     background-position: center;
     border: 0.5vh solid #313152;
-    border-radius: 26px;
+    border-radius: 100vh;
     z-index: -1;
     transition: border-color 0.2s;
 }
