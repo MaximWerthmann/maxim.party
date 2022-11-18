@@ -1,7 +1,6 @@
 main {
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
@@ -10,6 +9,6 @@ main {
 }
 
 main > img {
-    height: 50vh;
+    height: 30vh;
     display: flex;
 }
