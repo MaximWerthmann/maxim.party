@@ -11,6 +11,8 @@ header {
     align-items: center;
     justify-content: space-around;
 
+    font-size: 2vh;
+
 }
 
 list {
@@ -22,8 +24,6 @@ list {
     justify-content: space-around;
 
     list-style: none;
-
-    font-size: 1rem;
 }
 
 a {
@@ -51,5 +51,18 @@ a:hover {
     padding-right: 1vh;
     height: 2vh;
     width: 2vh;
+}
+
+.login_img {
+    padding-right: 1vh;
+    height: 2vh;
+    width: 2vh;
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.login_btn:hover > .login_img {
+    transition: 0.5s;
+    filter: brightness(100%);
 }
  
