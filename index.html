@@ -2,33 +2,29 @@
 <html>
     <head>
         <title>maxim.party</title>
-        
-        <link rel="stylesheet" href="src/css/body.css">
-        <link rel="stylesheet" href="src/css/main.css">
 
+        <link rel="stylesheet" href="/src/css/header.css">
+        <link rel="stylesheet" href="/src/css/body.css">
+        <link rel="stylesheet" href="/src/css/main.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <div include-html="src/html/header.html"></div>
 
-        
+    <body>
+        <header>
+            <img class="logo" src="/src/img/aperture.png">
+        </header>
         <main>
-            <img src="/src/img/dino.png">
-            <div class="logo-container">
-                <h1>
-                    <span>COMING SOON</span>
-                    <span>COMING SOON</span>
-                  </h1>
+            <div class="container">
+                <form>
+                    <h2>Genetic Lifeform and Disc Operating System</h2>
+                    <p>Security key:</p>
+                    <input class="sec_key" type="password" placeholder="[Enter your security key here]">
+                    <button class="continue_btn">Continue</button>
+                </form>
             </div>
         </main>
-
-
-        <div include-html="src/html/footer.html"></div>
-
-
-        <script src="src/js/include_html.js"></script>
-        <script src="src/js/functions.js"></script>
-        <script>
-            includeHTML();
-        </script>
     </body>
 </html>
