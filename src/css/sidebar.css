@@ -1,0 +1,104 @@
+#sidebar {
+    z-index: 10;
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+
+    transition: left 0.25s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color3);
+}
+
+#sidebar nav {
+    margin-top: 50px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#sidebar_close {
+    cursor: pointer;
+    margin-bottom: 50px;
+    min-width: 75px;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s;
+    background-color: var(--background-color2);
+    border-radius: 100px;
+
+}
+
+#sidebar_close img {
+    transition: filter 0.25s;
+    filter: brightness(25%);
+    height: 32px;
+    width: 32px;
+}
+
+#sidebar_close:hover {
+    transition: background-color 0.25s;
+    background-color: var(--background-color1);
+}
+
+#sidebar_close:hover img {
+    transition: filter 0.25s;
+    filter: brightness(100%);
+}
+
+#sidebar nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sidebar nav ul li {
+    padding-left: 25px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: rgb(15, 15, 15);
+    margin-bottom: 25px;
+}
+
+#sidebar nav ul li:hover {
+    transition: background-color 0.25s;
+    background-color: var(--background-color1);
+}
+
+#sidebar nav ul li img {
+    transition: filter 0.25s;
+    filter: brightness(25%);
+    height: 32px;
+    width: 32px;
+}
+
+#sidebar nav ul li:hover img {
+    transition: filter 0.25s;
+    filter: brightness(100%);
+}
+
+#sidebar nav ul li a {
+    padding-left: 25px;
+    font-size: 1rem;
+    color: white;
+}

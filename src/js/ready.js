@@ -1,0 +1,2 @@
+console.log("%c" + "Maxim.Party", "color: #0090c9; -webkit-text-stroke: 1px white; font-size: 72px; font-weight: bold;");
+console.log("%c" + "Developed by Maxim Werthmann", "color: #ffff; font-size: 32px; font-weight: bold;");

@@ -1,12 +1,75 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+* {
     margin: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: #000000;
-    color: white;
-    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #0090c9;
+    --secondary: #004d6b;
+    --tertiary: #004d6b;
+    --background-color1: rgb(25, 25, 25);
+    --background-color2: rgb(15, 15, 15);
+    --background-color3: rgb(5, 5, 5);
+    --text: white;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: "Source Code pro";
-    font-size: 1rem;
+    background-color: var(--background-color1);
+    font-family: "Open Sans";
+    color: var(--text);
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hl-a {
+    margin: 0;
+    width: fit-content;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.hl-a:hover {
+    transition: background-color 0.25s;
+    background-color: var(--secondary);
 }

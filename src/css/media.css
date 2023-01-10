@@ -1,0 +1,23 @@
+@media only screen and (min-width: 900px) {
+
+    header nav ul {
+        display: flex;
+    }
+
+    .header_btn {
+        display: flex;
+    }
+
+    header nav {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    #sidebar_open_button {
+        display: none;
+    }
+}

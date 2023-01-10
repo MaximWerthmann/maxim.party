@@ -1,33 +1,39 @@
 main {
-    height: 50%;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1;
 }
 
-.container {
+.c-1 {
+    z-index: 0;
+    width: 100%;
+
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.sec_key {
-    width: 200px;
-    color: white;
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    outline: none;
+.c-2 {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.continue_btn {
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: transparent;
-    border: 0;
-    color: white;
-    font-family: "Source Code Pro";
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.continue_btn:hover {
-    color: red;
+.main-title {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
 }
