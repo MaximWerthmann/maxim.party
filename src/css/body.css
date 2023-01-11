@@ -17,11 +17,12 @@
 }
 
 html {
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100%;
 }
 
 body {
+    user-select: none;
     height: 100%;
     margin: 0;
     display: flex;

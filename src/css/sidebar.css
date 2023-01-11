@@ -67,7 +67,7 @@
     flex-direction: column;
 }
 
-#sidebar nav ul li {
+#sidebar nav ul a {
     padding-left: 25px;
     transition: background-color 0.25s;
     cursor: pointer;
@@ -80,24 +80,24 @@
     margin-bottom: 25px;
 }
 
-#sidebar nav ul li:hover {
+#sidebar nav ul a:hover {
     transition: background-color 0.25s;
     background-color: var(--background-color1);
 }
 
-#sidebar nav ul li img {
+#sidebar nav ul a img {
     transition: filter 0.25s;
     filter: brightness(25%);
     height: 32px;
     width: 32px;
 }
 
-#sidebar nav ul li:hover img {
+#sidebar nav ul a:hover img {
     transition: filter 0.25s;
     filter: brightness(100%);
 }
 
-#sidebar nav ul li a {
+#sidebar nav ul a span {
     padding-left: 25px;
     font-size: 1rem;
     color: white;
